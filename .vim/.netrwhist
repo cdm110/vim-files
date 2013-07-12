@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/chris/inspired_test/Inspired_Monitoring_System/app/views/home'
+let g:netrw_dirhist_2='/home/chris/inspired_test/Inspired_Monitoring_System/app/models'
+let g:netrw_dirhist_3='/etc/rc3.d'
+let g:netrw_dirhist_4='/etc/drupal/7/sites/default/files'
+let g:netrw_dirhist_5='/home/chrism'
+let g:netrw_dirhist_6='/home/chrism/jsPlugin/firebreath/projects/testPlugin/Chrome/chromepackage'
