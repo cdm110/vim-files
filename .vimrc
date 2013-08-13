@@ -14,7 +14,7 @@ set expandtab
 set autoindent
 set cindent
 set cul
-set background=dark
+"set background=dark
 set showmatch
 set ignorecase
 set smartcase
@@ -28,7 +28,8 @@ set wrap
 set mouse=a
 set laststatus=2
 set title
-:set bs=2
+set bs=2
+set t_Co=256
 nore ; :
 nore , ;
 inoremap jj <Esc>
@@ -37,3 +38,7 @@ vnoremap > >gv
 vnoremap < <gv
 :se scrolloff=2
 set wildmenu
+map <F9> :!make && ./chris_wget google.com<CR>
+colorscheme wombat256mod
+autocmd BufWinLeave *.* mkview
+autocmd BufWinEnter *.* silent loadview
